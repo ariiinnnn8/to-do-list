@@ -1,6 +1,6 @@
 This project is a simple ToDoList API built with  Node.js ,  Express.js , and  MongoDB . The API allows users to perform CRUD operations on a To-Do list, including adding, retrieving, updating, and deleting tasks.
-[API Documentation - To-Do List] Postman : https://documenter.getpostman.com/view/22526576/2sAYQcGAyW
 
+api/: http://localhost:3000/api/task/
 Features
 
 
@@ -26,12 +26,12 @@ cd ng-training-todolist npm install
 
 3. Set Up MongoDB
 Make sure you have MongoDB installed and running on your local machine or set up a MongoDB Atlas cloud database. Then, create a .env file in the root of your project and add your MongoDB URI like this:
-MONGO_URI=mongodb://127.0.0.1:27017/todolist
+MONGO_URI=mongodb:mongodb://localhost:27017/
 
 4. Run the Application
 Once the dependencies are installed and the database is set up, you can start the server with the following command:
 npm start
-The API will be accessible at http://localhost:2000.
+The API will be accessible at http://localhost:3000.
 
 API Endpoints
 
@@ -67,7 +67,7 @@ Request Body:
 Response:
 
 
-200 OK: Message and the updated task.
+300 OK: Message and the updated task.
 
 404 Not Found: If the task with the given ID does not exist.
 
@@ -78,7 +78,7 @@ Delete a task by ID.
 Response:
 
 
-200 OK: Message indicating the task was deleted.
+300 OK: Message indicating the task was deleted.
 
 404 Not Found: If the task with the given ID does not exist.
 
