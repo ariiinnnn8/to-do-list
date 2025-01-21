@@ -1,0 +1,49 @@
+2025-01-21T06:40:21.842Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T06:40:31.711Z [32minfo[39m: POST /users - Request body:
+2025-01-21T06:45:37.869Z [32minfo[39m: POST /users - Request body:
+2025-01-21T06:45:52.873Z [32minfo[39m: GET /users - Users fetched
+2025-01-21T06:51:03.675Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T06:52:47.100Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T06:53:49.840Z [32minfo[39m: POST /users - Request body:
+2025-01-21T06:54:08.367Z [32minfo[39m: GET /users - Users fetched
+2025-01-21T07:01:36.405Z [32minfo[39m: GET /users - Users fetched
+2025-01-21T07:10:20.601Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T07:10:50.896Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T07:10:59.532Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T07:11:08.180Z [32minfo[39m: POST /users - Request body:
+2025-01-21T08:05:56.135Z [32minfo[39m: PUT/api/task/:blogId - blogId: 1, body: {"blogId":1,"assignTo":"arin","status":"Arin","dueDate":"21/01/2024","priority":"1"}
+2025-01-21T08:06:17.221Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T08:10:18.942Z [32minfo[39m: POST /users - Request body:
+2025-01-21T08:10:28.136Z [32minfo[39m: POST /users - Request body:
+2025-01-21T08:10:48.666Z [32minfo[39m: POST /users - Request body:
+2025-01-21T08:11:15.761Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T08:11:19.147Z [32minfo[39m: POST /users - Request body:
+2025-01-21T08:11:22.278Z [32minfo[39m: POST /users - Request body:
+2025-01-21T08:11:59.290Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T08:12:03.219Z [32minfo[39m: POST /users - Request body:
+2025-01-21T08:12:22.797Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T08:12:26.137Z [32minfo[39m: POST /users - Request body:
+2025-01-21T08:13:38.088Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T08:16:05.034Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T08:16:54.099Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T08:39:49.837Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T10:36:32.906Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T10:38:39.153Z [32minfo[39m: GET /users/:blogId - blogId: :blogId:1
+2025-01-21T10:39:39.805Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T11:29:25.055Z [32minfo[39m: Connected to MongoDB
+2025-01-21T11:29:25.062Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T11:32:14.514Z [32minfo[39m: Connected to MongoDB
+2025-01-21T11:32:14.521Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T11:32:22.058Z [32minfo[39m: POST /users - Request body:
+2025-01-21T11:34:16.298Z [32minfo[39m: Connected to MongoDB
+2025-01-21T11:34:16.307Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T11:34:18.844Z [32minfo[39m: POST /tasks - Request body:
+2025-01-21T11:34:18.876Z [31merror[39m: Error saving task to the database: Task validation failed: dueDate: Cast to date failed for value "21/01/2024" (type string) at path "dueDate", name: Path `name` is required.
+2025-01-21T11:35:37.121Z [32minfo[39m: Connected to MongoDB
+2025-01-21T11:35:37.131Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T11:35:50.809Z [32minfo[39m: POST /tasks - Request body:
+2025-01-21T11:35:50.844Z [31merror[39m: Error saving task to the database: Task validation failed: dueDate: Cast to date failed for value "21/01/2024" (type string) at path "dueDate"
+2025-01-21T11:36:39.458Z [32minfo[39m: Connected to MongoDB
+2025-01-21T11:36:39.466Z [32minfo[39m: Server is running on http://localhost:3000
+2025-01-21T11:36:42.333Z [32minfo[39m: POST /tasks - Request body:
+2025-01-21T11:37:20.972Z [32minfo[39m: POST /tasks - Request body:
